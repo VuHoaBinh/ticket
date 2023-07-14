@@ -1,4 +1,3 @@
-
 html,
 body,
 div,
@@ -478,11 +477,6 @@ input[type='checkbox']:before {
 
 input[type='checkbox']:checked:before {
   background-color: Green;
-  font-size: 15px;
-}
-
-.remove input[type='checkbox']:checked:before {
-  background-color: white !important;
   font-size: 15px;
 }
 
