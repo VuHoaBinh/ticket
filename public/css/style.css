@@ -1,92 +1,92 @@
 @font-face {
-    font-family: 'fontGame';
-    src: url('../font/Pony.ttf');
+  font-family: 'fontGame';
+  src: url('../font/Pony.ttf');
 }
 
-.bookingMovie{
-    font-family: 'fontGame';
-    background-image: url(/bgmovie.jpg) no-repeat center center;
+.bookingMovie {
+  font-family: 'fontGame';
+  background-image: url(/bgmovie.jpg) no-repeat center center;
 }
 
-.gridSeat{
-    display: grid;
-    text-align: center;
-    font-weight: bold;
+.gridSeat {
+  display: grid;
+  text-align: center;
+  font-weight: bold;
 }
-.content{
-    margin-left: 100px;
-    font-family: 'fontGame';
-    font-weight: bold;
-    color: orange;
+.content {
+  margin-left: 100px;
+  font-family: 'fontGame';
+  font-weight: bold;
+  color: orange;
 }
-.ghe{
-    border: 3px solid orange;
-    width: 45px;
-    height: 35px;
-    font-size: 12px;
-    margin-left: 2%;
-    margin-bottom: 20px;
-    border-radius: 5px;
+.ghe {
+  border: 3px solid orange;
+  width: 45px;
+  height: 35px;
+  font-size: 12px;
+  margin-left: 2%;
+  margin-bottom: 20px;
+  border-radius: 5px;
 }
-.rowSeat{
-    margin-right: -1px;
-    /* border: 1px solid brown; */
+.rowSeat {
+  margin-right: -1px;
+  /* border: 1px solid brown; */
 }
-.rowNumber{
-    /* font-size: 25px; */
-    width: 45px;
-    height: 35px;
-    background: none;
-    border:none;
-    margin-left: 2%;
-    margin-bottom: 1%;
-    font-size: 30px;
-    color: yellow;
-    
-}
-
-.firstChar{
-    color: yellow;
-    font-size: 35px;
-    width: 45px;
-    margin-left: 2%;
-    margin-bottom: 20px;
-    margin-top: 20px;
+.rowNumber {
+  /* font-size: 25px; */
+  width: 45px;
+  height: 35px;
+  background: none;
+  border: none;
+  margin-left: 2%;
+  margin-bottom: 1%;
+  font-size: 30px;
+  color: yellow;
 }
 
-.screen{
-    border-bottom: 50px solid rgb(255, 159, 95);
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    height: 100;
-    width:80%;
-    filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
-    font-size: 25px;
-    color: #fff;
+.firstChar {
+  color: yellow;
+  font-size: 35px;
+  width: 45px;
+  margin-left: 2%;
+  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
+.screen {
+  border-bottom: 50px solid rgb(255, 159, 95);
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  height: 100;
+  width: 80%;
+  filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+  font-size: 25px;
+  color: #fff;
+}
+
+.seat {
+  background-color: green !important;
+}
 
 .gheDuocChon {
-    border: 3px solid orange;
+  border: 3px solid orange;
 
-    background: orange;
-    color: #000;
+  background: orange;
+  color: #000;
 
-    cursor: no-drop !important;
-    border-radius: 5px;
-    width: 45px;
-    height: 35px;
-
+  cursor: no-drop !important;
+  border-radius: 5px;
+  width: 45px;
+  height: 35px;
 }
 
 .gheDangChon {
-    background: rgb(109, 238, 109);
-    border: 3px solid rgb(109, 238, 109);
-    color: #000;
+  background: rgb(109, 238, 109);
+  border: 3px solid rgb(109, 238, 109);
+  color: #000;
 
-    cursor: pointer;
-    border-radius: 5px;
-    width: 45px;
-    height: 35px;
-
+  cursor: pointer;
+  border-radius: 5px;
+  width: 45px;
+  height: 35px;
 }
