@@ -1,5 +1,5 @@
 {
-  "name": "ticket",
+  "name": "booking",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +12,7 @@
     "react-redux": "^8.1.1",
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
+    "styled-components": "^6.0.4",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
